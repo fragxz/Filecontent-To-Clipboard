@@ -1,5 +1,6 @@
 # Filecontent-to-Clipboard
 Filecontent-to-Clipboard is a handy Python script designed to streamline your programming workflow by automatically copying the content of all files in a specific directory to your clipboard.
+
 I use it to quickly copy the content of specific files for ChatGPT prompting.
 
 ## How to use
@@ -18,6 +19,8 @@ file2:
 
 CONTENT_OF_FILE2
 ```
+
+**Remember, the script does not differentiate between file types** and will attempt to read all file types. Large or binary files may cause the script to fail or produce undesired results. It's best used in directories with text-based files like .txt, .csv, .xml, .html, .css, .js, .py, .php, etc.
 
 ## How it works
 
@@ -43,5 +46,3 @@ Move the script to the directory you want to copy files from and run:
 ```python3 filecontent_to_clipboard.py```
 
 After successful execution, the script's output (contents of the files) is stored in the clipboard, ready for you to paste wherever you like. This script handles all text-based file types present in the directory.
-
-Remember, the script does not differentiate between file types and will attempt to read all file types. Large or binary files may cause the script to fail or produce undesired results. It's best used in directories with text-based files like .txt, .csv, .xml, .html, .css, .js, .py, .php, etc.

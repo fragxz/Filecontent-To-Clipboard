@@ -52,6 +52,10 @@ Ensure to have pyperclip Python module installed. If not, install it using pip:
 
 Move the script to the directory you want to copy files from and run:
 
-```python3 filecontent_to_clipboard.py```
+```python3 app.py```
+OR
+```python3 app-specified-files.py```
+
+**Tip:** You can also change python files to be executed by Python.exe (Windows), so you can execute it with a double-click.
 
 After successful execution, the script's output (contents of the files) is stored in the clipboard, ready for you to paste wherever you like. This script handles all text-based file types present in the directory.

@@ -5,9 +5,11 @@ I use it to quickly copy the content of specific files for ChatGPT prompting.
 
 ## How to use
 **app.py**
+
 Create a folder, copy your files into it and execute this python script => Now you have the contents of the files in your clipboard
 
 **app-specified-files.py**
+
 Change the specified files inside the code to meet your needs. 
 Now you can copy this file into your project and just execute the script whenever you need it!
 

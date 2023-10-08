@@ -26,12 +26,12 @@ CONTENT_OF_FILE2
 
 Here's a breakdown of the script's workflow:
 
-    It first identifies the directory where it's currently located using Python's os module.
-    Next, it loops over all the files in the said directory.
-    It ignores itself (the script file) to prevent unnecessary content copying.
-    For each of the other files, it opens the file and reads the content.
-    Then, it builds a formatted string with the filename and its content, separated by line breaks for clarity. It also adds a line of hyphens for better visual separation between different files.
-    Once it has looped through all the files and collected their contents, it copies the compiled string into your system's clipboard using the pyperclip module.
+* It first identifies the directory where it's currently located using Python's os module.
+* Next, it loops over all the files in the said directory.
+* It ignores itself (the script file) to prevent unnecessary content copying.
+* For each of the other files, it opens the file and reads the content.
+* Then, it builds a formatted string with the filename and its content, separated by line breaks for clarity. It also adds a line of hyphens for better visual separation between different files.
+* Once it has looped through all the files and collected their contents, it copies the compiled string into your system's clipboard using the pyperclip module.
 
 This script allows you to quickly and efficiently copy an entire directory's file contents into your clipboard, formatted and ready to paste wherever required.
 

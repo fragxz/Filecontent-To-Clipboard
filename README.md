@@ -18,6 +18,8 @@ CONTENT_OF_FILE1
 file2:
 
 CONTENT_OF_FILE2
+
+---------
 ```
 
 **Remember, the script does not differentiate between file types** and will attempt to read all file types. Large or binary files may cause the script to fail or produce undesired results. It's best used in directories with text-based files like .txt, .csv, .xml, .html, .css, .js, .py, .php, etc.
